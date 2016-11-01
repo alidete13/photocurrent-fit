@@ -15,4 +15,10 @@ def compile_data(stopping_voltages, photocurrents):
     # NOT YET IMPLEMENTED.
     # Follow the above comments to turn the two arrays above into a single dictionary. with the keys and values
     # as described.
+
+    #not completed within the deadline
+
+    
+
+
     return "Not implemented"

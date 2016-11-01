@@ -7,9 +7,14 @@
 
 
 def invert_2x2(a, b, c, d):
-    # DUMMY IMPLEMENTATION
-    e = a
-    f = b
-    g = c
-    h = d
-    return e, f, g, h
+
+    determinant = 1/(a*c-b*c)
+
+    e = determinant * d
+    f = determinant * -b
+    g = determinant * -c
+    h = determinant * a
+
+    newtons_matrix = e,f,g,h
+
+    return newtons_matrix
